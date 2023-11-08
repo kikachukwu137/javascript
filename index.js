@@ -1,5 +1,17 @@
-/* write a script that accept username and password from the users,
-validate username, validate password and then display the users details to the page */
+/*In this last section, we'll consolidate all you have learnt this week, with some mini projects
+
+* Create a webpage that validates a user and returns user details
+    * Accept details using prompts
+    * Use an object to store user details
+    * Validate user details
+    * Username must be less than ten
+    * Password must be greater than six
+    * User must confirms password
+    * If username and password do not match, alert the user
+    * Display user details
+    * /
+*/
+ //* Accept details using prompts
 
 function userdetails(){
     const userDatabase = {
@@ -10,16 +22,16 @@ function userdetails(){
             email : "egwaoje.daniel@gmail.com"
         },
         user2 : {
-            name : "egwaoje Daniel",
-            sex : "male",
-            age : 31,
-            email : "egwaoje.daniel@gmail.com"
+            name : "Aduka winner",
+            sex : "female",
+            age : 30,
+            email : "winner@gmail.com"
         },
         user3 : {
-            name : "egwaoje Daniel",
+            name : "Adekunle Daniel",
             sex : "male",
-            age : 31,
-            email : "egwaoje.daniel@gmail.com"
+            age : 27,
+            email : "adekunledaniel@gmail.com"
         }
     }
     
